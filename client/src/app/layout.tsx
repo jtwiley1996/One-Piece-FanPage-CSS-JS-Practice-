@@ -12,13 +12,20 @@ export default function RootLayout ({
   return (
     <html lang="en">
       <body>
-      <header className="justify-between flex p-4">
-          <h1 className="text-4xl">
+      <header className="justify-between flex px-6 py-4  border-b-2 border-green-800 text-green-800">
+        <nav>
+        <Link href="/" passHref legacyBehavior>
+          <a className="text-4xl z-10 hover-underline">
             Straw Hat Grand Fleet
-          </h1>
+          </a>
+        </Link>
+        </nav>
+
+        <nav>
           <h1 className="text-2xl">
             Learn More
           </h1>
+        </nav>
 
         </header>
       <main className="bg-white">
