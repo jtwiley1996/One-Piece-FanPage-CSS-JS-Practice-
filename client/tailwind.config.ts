@@ -11,9 +11,12 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'dark-red': '#a40e02', // Custom dark navy blue color
+        'straw-hat-yellow': '#F7D358',
       },
     },
   },
   plugins: [],
 };
+
 export default config;
