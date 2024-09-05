@@ -22,9 +22,11 @@ export default function RootLayout ({
         </nav>
 
         <nav>
-          <h1 className="text-2xl">
+        <Link href="/about" passHref legacyBehavior>
+          <a className="text-2xl z-10 hover-underline">
             Learn More
-          </h1>
+          </a>
+        </Link>
         </nav>
 
         </header>
