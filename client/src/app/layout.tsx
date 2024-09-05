@@ -33,6 +33,11 @@ export default function RootLayout ({
       <main className="bg-white">
       {children}
       </main>
+      <footer className="justify-center flex px-6 py-4  border-t-2 border-green-800 text-green-800">
+        <h2>
+          Welcome to the grand fleet
+        </h2>
+      </footer>
       </body>
     </html>
   );
