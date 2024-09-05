@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "cd client && npm run dev",
+    "start:server": "cd server && npm run start",
+    "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
+    "lint": "eslint 'client/**/*.{ts,tsx}' 'server/**/*.{ts,tsx}' --fix",
+    "lint:client": "eslint 'client/**/*.{ts,tsx}' --fix",
+    "lint:server": "eslint 'server/**/*.{ts,tsx}' --fix"
   },
   "keywords": [],
   "author": "",
