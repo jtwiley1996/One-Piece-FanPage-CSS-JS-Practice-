@@ -14,19 +14,16 @@ export default function RootLayout ({
       <body>
       <header className="justify-between flex px-6 py-4  border-b-2 border-green-800 text-green-800">
         <nav>
-        <Link href="/" passHref legacyBehavior>
-          <a className="text-4xl z-10 hover-underline">
+
+          <a href="/" className="text-4xl z-10 hover-underline">
             Straw Hat Grand Fleet
           </a>
-        </Link>
         </nav>
 
         <nav>
-        <Link href="/about" passHref legacyBehavior>
-          <a className="text-2xl z-10 hover-underline">
+          <a href="/about" className="text-2xl z-10 hover-underline">
             Learn More
           </a>
-        </Link>
         </nav>
 
         </header>
