@@ -17,7 +17,7 @@ export default function RootLayout({
 
           {/* Content */}
           <nav className="relative z-10">
-            <a href="/" className="text-4xl hover-underline">
+            <a href="/" className="text-4xl compressed-text hover-underline">
               Straw Hat Grand Fleet
             </a>
           </nav>

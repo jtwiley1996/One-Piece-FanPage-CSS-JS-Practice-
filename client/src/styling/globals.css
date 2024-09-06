@@ -2,12 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
+@import './fonts.css';
+
+header {
+  font-family: 'Rum is gone', 'sans-serif';
+}
+
 body {
   background-image: url('/images/background-luffy.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   min-height: 100vh; /* Ensure it covers the full viewport height */
+}
+
+.compressed-text {
+  font-family: 'Rum is gone', sans-serif;
+  transform: scaleX(0.8); /* Compresses only the text */
+  display: inline-block; /* Ensures transform works correctly */
 }
 
 @layer utilities {
