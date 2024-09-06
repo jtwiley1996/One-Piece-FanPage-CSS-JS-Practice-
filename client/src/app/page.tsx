@@ -1,7 +1,7 @@
 export default function Home() {
   return (
-    <div className="justify-center items-center min-h-screen flex">
-      <div className="w-3/4 bg-blue-800 bg-opacity-50 border-2 border-white rounded-3xl p-24">
+    <div className="justify-center mt-12 mb-12 min-h-screen flex">
+      <div className="w-[60%] bg-blue-800 bg-opacity-50 border-2 border-white rounded-3xl py-24">
         <h1 className="text-3xl font compressed-text text-center" style={{ fontFamily: "'Rum is gone', sans-serif" }}>
           Welcome to the ultimate One Piece manga discussion forum!
         </h1>
