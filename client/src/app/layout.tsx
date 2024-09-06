@@ -11,7 +11,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <header className="relative justify-between flex px-6 py-4 text-dark-red bg-cover bg-center shadow-lg">
+        <header className="relative justify-between flex pr-6 py-4 text-dark-red bg-cover bg-center shadow-lg">
           {/* Background Image with Opacity */}
           <div className="absolute inset-0 bg-cover bg-center opacity-75 z-0" style={{ backgroundImage: "url('/images/straw-hat-yellow.jpg')" }}></div>
 
