@@ -8,6 +8,10 @@ header {
   font-family: 'Rum is gone', 'sans-serif';
 }
 
+footer {
+  font-family: 'Rum is gone', 'sans-serif';
+}
+
 body {
   background-image: url('/images/background-luffy.jpg');
   background-size: cover;
