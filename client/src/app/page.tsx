@@ -5,6 +5,7 @@ export default function Home() {
         <h1 className="text-3xl font compressed-text text-center" style={{ fontFamily: "'Rum is gone', sans-serif" }}>
           Welcome to the ultimate One Piece manga discussion forum!
         </h1>
+        <img src="/images/SHcrew.png" alt="Straw Hats" className="mx-auto mt-24" />
         <p className="w-3/4 mx-auto pt-6" style={{ fontFamily: "sans-serif" }}>
           Whether you're a Straw Hat pirate in training or a seasoned Grand Line explorer, we urge you to create an account, dive into the conversation, and join the crew. Let's set sail on the Grand Line of theories, epic moments, and endless adventure! 🏴‍☠️🍖
         </p>
