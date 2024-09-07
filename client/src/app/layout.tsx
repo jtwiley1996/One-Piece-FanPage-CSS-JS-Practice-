@@ -36,7 +36,7 @@ export default function RootLayout({
           </main>
 
           {/* Sidebar */}
-          <aside className="w-1/5 bg-blue-800 bg-opacity-50 bl-2 mt-[4.5rem] mb-[4.5rem] rounded-tl-3xl rounded-bl-3xl border-white border-2 text-white p-4">
+          <aside className="w-1/5 bg-blue-800 bg-opacity-50 bl-2 mt-[4.3rem] mb-[4.3rem] rounded-tl-3xl rounded-bl-3xl border-white border-2 text-white p-4">
             {/* Account Information */}
             <div className="mb-8">
               <img
