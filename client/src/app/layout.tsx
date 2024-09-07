@@ -22,8 +22,8 @@ export default function RootLayout({
             </a>
           </nav>
 
-          <nav className="relative z-10">
-            <a href="/about" className="text-2xl hover-underline">
+          <nav className="relative z-10 mt-2">
+            <a href="/about" className="text-xl hover-underline">
               Learn More
             </a>
           </nav>
