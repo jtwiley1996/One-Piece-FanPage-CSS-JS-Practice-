@@ -23,8 +23,11 @@ export default function RootLayout({
           </nav>
 
           <nav className="relative z-10 mt-2">
-            <a href="/about" className="text-xl hover-underline">
+            <a href="/about" className="text-lg mt-1 hover-underline">
               Learn More
+            </a>
+            <a href="/signin" className="text-md hover-underline ml-2 border border-dark-red bg-cream rounded-3xl p-2">
+              Sign In
             </a>
           </nav>
         </header>
@@ -36,7 +39,7 @@ export default function RootLayout({
           </main>
 
           {/* Sidebar */}
-          <aside className="w-1/5 bg-blue-800 bg-opacity-50 bl-2 mt-[4.3rem] mb-[4.3rem] rounded-tl-3xl rounded-bl-3xl border-white border-2 text-white p-4">
+          <aside className="w-1/5 bg-blue-800 bg-opacity-50 bl-2 mt-[2.5rem] mb-[2.5rem] rounded-tl-3xl rounded-bl-3xl border-white border-2 text-white p-4">
             {/* Account Information */}
             <div className="mb-8">
               <img
@@ -53,7 +56,7 @@ export default function RootLayout({
               <h3 className="text-lg font-bold mb-4">Wikis</h3>
               <ul>
                 <li className="mb-2">
-                  <a href="/wiki/one-piece" className="hover:underline">One Piece Wiki</a>
+                  <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki" className="hover:underline">One Piece Wiki</a>
                 </li>
                 <li className="mb-2">
                   <a href="/wiki/straw-hats" className="hover:underline">Straw Hat Pirates</a>
