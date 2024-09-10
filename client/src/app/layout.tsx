@@ -78,7 +78,7 @@ export default function RootLayout({
                   <a href="/forum/thread/2" className="hover:underline">Character Discussions</a>
                 </li>
                 <li className="mb-2">
-                  <a href="/forum/thread/3" className="hover:underline">Latest Manga Chapter</a>
+                  <a href="https://www.viz.com/shonenjump/one-piece-chapter-1125/chapter/44012?action=read" className="hover:underline">Latest Manga Chapter</a>
                 </li>
               </ul>
             </div>
