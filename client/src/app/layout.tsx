@@ -39,46 +39,50 @@ export default function RootLayout({
           </main>
 
           {/* Sidebar */}
-          <aside className="w-1/5 bg-blue-800 bg-opacity-50 bl-2 mt-[2.5rem] mb-[2.5rem] rounded-tl-3xl rounded-bl-3xl border-white border-2 text-white p-4">
-            {/* Account Information */}
+          <aside className="w-1/5 bg-blue-800 bg-opacity-50 bl-2 mt-[2.5rem] mb-[2.5rem] border-white border-2 text-white p-4">
+            {/* New Post Button */}
             <div className="mb-8">
-              <img
-                src="/images/account-placeholder.png"
-                alt="Account"
-                className="rounded-full w-24 h-24 mx-auto mb-4"
-              />
-              <p className="text-center">Username</p>
-              <p className="text-center text-sm">Member since: Month Year</p>
+              <a href="/new-post" className="block text-lg font-bold mb-4 text-center bg-dark-red hover:bg-red-700 py-2 rounded border border-white">Make a New Post</a>
             </div>
 
-            {/* Wiki Links */}
+            {/* Staff Online */}
             <div className="mb-8">
-              <h3 className="text-lg font-bold mb-4">Wikis</h3>
+              <h3 className="text-lg font-bold mb-4">Staff Online</h3>
+              <ul>
+                <li className="mb-2">Julian</li>
+              </ul>
+            </div>
+
+            {/* Latest Posts */}
+            <div className="mb-8">
+              <h3 className="text-lg font-bold mb-4">Latest Posts</h3>
               <ul>
                 <li className="mb-2">
-                  <a href="https://onepiece.fandom.com/wiki/One_Piece_Wiki" className="hover:underline">One Piece Wiki</a>
+                  <a href="/forum/thread/1" className="hover:underline">Spoiler One Piece Chapter 1126 Spoilers Discussion</a>
+                  <p className="text-sm">Latest: Tyki_Mikk Yesterday at 8:18 PM</p>
                 </li>
                 <li className="mb-2">
-                  <a href="/wiki/straw-hats" className="hover:underline">Straw Hat Pirates</a>
+                  <a href="/forum/thread/2" className="hover:underline">General & Others Bounty Discussion and Speculation</a>
+                  <p className="text-sm">Latest: shadow31 Yesterday at 8:03 PM</p>
                 </li>
                 <li className="mb-2">
-                  <a href="/wiki/grand-line" className="hover:underline">Grand Line</a>
+                  <a href="/forum/thread/3" className="hover:underline">Role Madness Star Wars OT Trilogy</a>
+                  <p className="text-sm">Latest: Dr. Watson Yesterday at 8:02 PM</p>
                 </li>
               </ul>
             </div>
 
-            {/* Recent Posts or Popular Threads */}
+            {/* Latest Profile Posts */}
             <div>
-              <h3 className="text-lg font-bold mb-4">Popular Threads</h3>
+              <h3 className="text-lg font-bold mb-4">Latest Profile Posts</h3>
               <ul>
                 <li className="mb-2">
-                  <a href="/forum/thread/1" className="hover:underline">Epic Theories</a>
+                  <a href="/profile/BangOO" className="hover:underline">Natalija wrote on BangOO🍅's profile: Bongo, did you see Baekhyun *_*</a>
+                  <p className="text-sm">Yesterday at 7:50 PM</p>
                 </li>
                 <li className="mb-2">
-                  <a href="/forum/thread/2" className="hover:underline">Character Discussions</a>
-                </li>
-                <li className="mb-2">
-                  <a href="https://www.viz.com/shonenjump/one-piece-chapter-1125/chapter/44012?action=read" className="hover:underline">Latest Manga Chapter</a>
+                  <a href="/profile/KING_HARASHIMA" className="hover:underline">AverageNamiEnjoyer wrote on K!NG HARA$H!MA's profile: Stupid</a>
+                  <p className="text-sm">Yesterday at 7:15 PM</p>
                 </li>
               </ul>
             </div>
